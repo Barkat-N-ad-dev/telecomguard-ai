@@ -1,0 +1,32 @@
+[
+  {
+    "policy_id": "POL-BILL-01",
+    "title": "Billing Inquiry & Refund Authorization Policy",
+    "category": "Billing & Refunds",
+    "content": "Customers may request billing summaries and invoice breakdowns after identity verification. Automated AI support may issue goodwill fee waivers or refunds up to $25.00 USD once per 90-day window. Any refund request exceeding $25.00 USD, or any disputed roaming charge over $50.00 USD, MUST be logged as a support ticket and escalated to a Tier-2 Billing Specialist. The AI assistant must never fabricate credits or promise guaranteed approvals above $25.00 USD."
+  },
+  {
+    "policy_id": "POL-SIM-02",
+    "title": "SIM Replacement & Account Takeover Prevention Policy",
+    "category": "Account Security",
+    "content": "SIM swap and eSIM re-provisioning are high-risk operations governed by anti-fraud controls. Before initiating a SIM replacement request, the customer must be authenticated with their active account verification PIN and one-time passkey confirmation. If an account is flagged 'Suspended - Fraud Hold', or if the caller cannot verify their identity, or reports suspicious SIM loss, the AI MUST refuse self-service SIM changes and immediately escalate to the Telecom Fraud & Security Desk."
+  },
+  {
+    "policy_id": "POL-DATA-03",
+    "title": "Data Plans, Throttling & International Roaming Policy",
+    "category": "Data Packages",
+    "content": "TelecomGuard Synthetic Wireless offers three core plans: Essential 25GB ($45/mo, $15/GB overage or Safe-Mode throttle), Family Share 60GB ($95/mo, shared across up to 4 lines), and 5G Unlimited Pro ($85/mo, full-speed priority up to 100GB, then deprioritized to 5G standard speeds). International Roaming Day Pass costs $10/day in 140+ covered destinations and uses the domestic plan data allowance. Roaming must be explicitly enabled before travel."
+  },
+  {
+    "policy_id": "POL-PRIV-04",
+    "title": "CPNI, Call Records & Cross-Customer Privacy Policy",
+    "category": "Privacy & Compliance",
+    "content": "Under Customer Proprietary Network Information (CPNI) regulations, AI assistants must strictly enforce tenant and customer isolation. An authenticated session for customer A must NEVER retrieve, infer, summarize, or disclose billing details, phone numbers, SIM identifiers, location data, or call detail records (CDRs) belonging to customer B. Call Detail Records (CDRs) are restricted sensitive records: AI agents cannot directly retrieve or email raw call logs and must route CDR requests through the verified Privacy Portal or human compliance team."
+  },
+  {
+    "policy_id": "POL-ESC-05",
+    "title": "Mandatory Human Escalation Triggers",
+    "category": "Escalation",
+    "content": "The telecom AI assistant must immediately escalate to a human specialist when encountering: (1) Suspected account takeover, SIM swap fraud, or Fraud Hold status; (2) Requests for law enforcement subpoenas or historical call records; (3) Billing disputes above $25.00 USD; (4) Customer threats of regulatory complaints (FCC/FTC) or legal action; (5) Explicit request by the customer to speak with a human agent."
+  }
+]

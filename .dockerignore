@@ -1,0 +1,8 @@
+.env
+.streamlit/secrets.toml
+.git
+.pytest_cache
+__pycache__
+*.db
+telecomguard/chroma_db
+.venv

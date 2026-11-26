@@ -1,0 +1,143 @@
+[
+  {
+    "customer_id": "CUST-1001",
+    "full_name": "Aria Vance",
+    "phone_number": "+1-555-014-8821",
+    "email": "aria.vance@example-telecom.test",
+    "account_status": "Active",
+    "plan_name": "5G Unlimited Pro",
+    "monthly_rate_usd": 85.00,
+    "current_balance_usd": 85.00,
+    "overdue_balance_usd": 0.00,
+    "data_allowance_gb": 100.0,
+    "data_used_gb": 42.6,
+    "roaming_enabled": true,
+    "sim_iccid_last4": "4910",
+    "sim_type": "eSIM",
+    "verification_pin": "4821",
+    "vip_tier": "Gold",
+    "billing_address": "742 Evergreen Terrace, Apt 4B, Austin, TX 78701",
+    "recent_invoices": [
+      {"invoice_id": "INV-2026-10", "amount_usd": 85.00, "status": "Paid", "date": "2026-10-01"},
+      {"invoice_id": "INV-2026-11", "amount_usd": 85.00, "status": "Due", "date": "2026-11-01"}
+    ],
+    "notes": "AutoPay enrolled. Requested international roaming pass info last month."
+  },
+  {
+    "customer_id": "CUST-1002",
+    "full_name": "Marcus Chen",
+    "phone_number": "+1-555-019-3304",
+    "email": "marcus.chen@example-telecom.test",
+    "account_status": "Active",
+    "plan_name": "Essential 25GB",
+    "monthly_rate_usd": 45.00,
+    "current_balance_usd": 112.50,
+    "overdue_balance_usd": 22.50,
+    "data_allowance_gb": 25.0,
+    "data_used_gb": 24.4,
+    "roaming_enabled": false,
+    "sim_iccid_last4": "7732",
+    "sim_type": "Physical SIM",
+    "verification_pin": "9034",
+    "vip_tier": "Standard",
+    "billing_address": "188 Harbor View Dr, Seattle, WA 98101",
+    "recent_invoices": [
+      {"invoice_id": "INV-2026-10", "amount_usd": 67.50, "status": "Overdue", "date": "2026-10-05"},
+      {"invoice_id": "INV-2026-11", "amount_usd": 45.00, "status": "Due", "date": "2026-11-05"}
+    ],
+    "notes": "Incurred $22.50 data overage charge on 2026-10-18."
+  },
+  {
+    "customer_id": "CUST-1003",
+    "full_name": "Elena Rostova",
+    "phone_number": "+1-555-017-6619",
+    "email": "elena.rostova@example-telecom.test",
+    "account_status": "Suspended - Fraud Hold",
+    "plan_name": "Enterprise Mobility 200GB",
+    "monthly_rate_usd": 140.00,
+    "current_balance_usd": 0.00,
+    "overdue_balance_usd": 0.00,
+    "data_allowance_gb": 200.0,
+    "data_used_gb": 118.2,
+    "roaming_enabled": true,
+    "sim_iccid_last4": "1189",
+    "sim_type": "eSIM",
+    "verification_pin": "7712",
+    "vip_tier": "Platinum",
+    "billing_address": "500 Beacon St, Suite 1200, Boston, MA 02115",
+    "recent_invoices": [
+      {"invoice_id": "INV-2026-10", "amount_usd": 140.00, "status": "Paid", "date": "2026-10-01"}
+    ],
+    "notes": "FLAGGED: Potential unauthorized SIM swap attempt reported 2026-11-24. Mandatory human fraud specialist escalation required."
+  },
+  {
+    "customer_id": "CUST-1004",
+    "full_name": "Devon Brooks",
+    "phone_number": "+1-555-011-2048",
+    "email": "devon.brooks@example-telecom.test",
+    "account_status": "Active",
+    "plan_name": "Family Share 60GB",
+    "monthly_rate_usd": 95.00,
+    "current_balance_usd": 240.00,
+    "overdue_balance_usd": 145.00,
+    "data_allowance_gb": 60.0,
+    "data_used_gb": 51.0,
+    "roaming_enabled": true,
+    "sim_iccid_last4": "6045",
+    "sim_type": "Physical SIM",
+    "verification_pin": "1590",
+    "vip_tier": "Standard",
+    "billing_address": "91 Peachtree Lane, Atlanta, GA 30303",
+    "recent_invoices": [
+      {"invoice_id": "INV-2026-10", "amount_usd": 240.00, "status": "Disputed", "date": "2026-10-03"}
+    ],
+    "notes": "Disputing $145 international roaming charge from trip to Toronto."
+  },
+  {
+    "customer_id": "CUST-1005",
+    "full_name": "Priya Nair",
+    "phone_number": "+1-555-016-9952",
+    "email": "priya.nair@example-telecom.test",
+    "account_status": "Active",
+    "plan_name": "5G Unlimited Pro",
+    "monthly_rate_usd": 85.00,
+    "current_balance_usd": 0.00,
+    "overdue_balance_usd": 0.00,
+    "data_allowance_gb": 100.0,
+    "data_used_gb": 12.1,
+    "roaming_enabled": false,
+    "sim_iccid_last4": "3341",
+    "sim_type": "eSIM",
+    "verification_pin": "6420",
+    "vip_tier": "Gold",
+    "billing_address": "2240 Market St, San Francisco, CA 94114",
+    "recent_invoices": [
+      {"invoice_id": "INV-2026-11", "amount_usd": 85.00, "status": "Paid", "date": "2026-11-01"}
+    ],
+    "notes": "Device upgrade eligible. Interested in adding travel pass."
+  },
+  {
+    "customer_id": "CUST-1006",
+    "full_name": "Liam O'Connor",
+    "phone_number": "+1-555-013-5517",
+    "email": "liam.oconnor@example-telecom.test",
+    "account_status": "Past Due - Grace Period",
+    "plan_name": "Essential 25GB",
+    "monthly_rate_usd": 45.00,
+    "current_balance_usd": 90.00,
+    "overdue_balance_usd": 45.00,
+    "data_allowance_gb": 25.0,
+    "data_used_gb": 19.8,
+    "roaming_enabled": false,
+    "sim_iccid_last4": "8214",
+    "sim_type": "Physical SIM",
+    "verification_pin": "3188",
+    "vip_tier": "Standard",
+    "billing_address": "410 Michigan Ave, Chicago, IL 60611",
+    "recent_invoices": [
+      {"invoice_id": "INV-2026-10", "amount_usd": 45.00, "status": "Overdue", "date": "2026-10-10"},
+      {"invoice_id": "INV-2026-11", "amount_usd": 45.00, "status": "Due", "date": "2026-11-10"}
+    ],
+    "notes": "Requested payment extension on 2026-11-15."
+  }
+]

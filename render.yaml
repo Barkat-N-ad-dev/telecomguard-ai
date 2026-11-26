@@ -1,0 +1,29 @@
+services:
+  - type: web
+    name: telecomguard-ai
+    runtime: python
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run telecomguard/app.py --server.port=$PORT --server.address=0.0.0.0 --server.headless=true
+    healthCheckPath: /_stcore/health
+    disk:
+      name: telecomguard-data
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: TELECOMGUARD_ENV
+        value: production
+      - key: GEMINI_MODEL
+        value: gemini-4-hydrogen
+      - key: DATABASE_URL
+        value: sqlite:////var/data/telecomguard.db
+      - key: CHROMA_PERSIST_DIR
+        value: /var/data/chroma_db
+      - key: TELECOMGUARD_PUBLIC_DEMO
+        value: "true"
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: TELECOMGUARD_ADMIN_PASSWORD
+        sync: false
+      - key: TELECOMGUARD_API_TOKEN
+        sync: false
