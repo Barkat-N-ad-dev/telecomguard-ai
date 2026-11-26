@@ -94,6 +94,8 @@ class GeminiService(BaseModelAdapter):
         self.timeout_seconds = timeout_seconds or settings.gemini_timeout_seconds
         self.max_retries = max_retries or settings.gemini_max_retries
         self.call_history: List[Dict[str, Any]] = []
+        self._cached_client = None
+        self._cached_client_key: str | None = None
 
     def _get_api_key(self) -> str | None:
         if self._explicit_api_key and self._explicit_api_key != "your_api_key_here":
@@ -109,10 +111,14 @@ class GeminiService(BaseModelAdapter):
         api_key = self._get_api_key()
         if not api_key:
             raise RuntimeError("GEMINI_API_KEY is not configured.")
-        return genai.Client(
+        if self._cached_client is not None and self._cached_client_key == api_key:
+            return self._cached_client
+        self._cached_client = genai.Client(
             api_key=api_key,
             http_options={"timeout": self.timeout_seconds * 1000},
         )
+        self._cached_client_key = api_key
+        return self._cached_client
 
     @staticmethod
     def _extract_usage(interaction: Any) -> tuple[int, int, int]:

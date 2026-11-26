@@ -113,7 +113,7 @@ class Settings:
         default_factory=lambda: get_config_value("GEMINI_EMBEDDING_MODEL", "gemini-embedding-001")
     )
     gemini_timeout_seconds: int = field(
-        default_factory=lambda: int(get_config_value("GEMINI_TIMEOUT_SECONDS", "45"))
+        default_factory=lambda: int(get_config_value("GEMINI_TIMEOUT_SECONDS", "90"))
     )
     gemini_max_retries: int = field(
         default_factory=lambda: int(get_config_value("GEMINI_MAX_RETRIES", "3"))

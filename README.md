@@ -10,13 +10,29 @@ TelecomGuard AI is a modular, production-ready AI assurance platform built with 
 
 ## Screenshots
 
-| Executive Overview | AI Evaluation Workbench |
+| RBAC Authentication Gate | Executive Overview Dashboard |
 |---|---|
-| ![Overview Dashboard](screenshots/overview_dashboard.png) | ![AI Evaluation Workbench](screenshots/ai_evaluation_workbench.png) |
+| ![Authentication Gate](screenshots/01_auth_gate.png) | ![Overview Dashboard](screenshots/02_overview_dashboard.png) |
 
-| 8-Dimension Assurance Breakdown | Red Teaming Laboratory |
+| Executive Analytics & Trends | AI Evaluation Workbench |
 |---|---|
-| ![AI Evaluation Dimensions](screenshots/ai_evaluation_dimensions.png) | ![Red Team Lab](screenshots/red_team_lab.png) |
+| ![Overview Charts](screenshots/03_overview_charts.png) | ![AI Evaluation Workbench](screenshots/04_ai_evaluation_workbench.png) |
+
+| RAG Evaluation Lab | Red Teaming Laboratory |
+|---|---|
+| ![RAG Evaluation Lab](screenshots/05_rag_evaluation_lab.png) | ![Red Team Lab](screenshots/06_red_team_lab.png) |
+
+| Telecom AI Simulator | Agent Tool Security & RBAC |
+|---|---|
+| ![Telecom Simulator](screenshots/07_telecom_simulator.png) | ![Agent Security](screenshots/08_agent_security.png) |
+
+| Regression Testing & Release Gate | Findings & Remediation Center |
+|---|---|
+| ![Regression Testing](screenshots/09_regression_testing.png) | ![Findings Center](screenshots/10_findings_center.png) |
+
+| Enterprise Assurance Reports | Platform Settings & Live Gemini |
+|---|---|
+| ![Reports](screenshots/11_reports.png) | ![Settings Gemini](screenshots/12_settings_gemini.png) |
 
 ---
 
